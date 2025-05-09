@@ -1,0 +1,1 @@
+savedcmd_/home/vgsat/gpio_driver_pi/gpio_raw_driver.ko := ld -r -EL -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm/module.lds -o /home/vgsat/gpio_driver_pi/gpio_raw_driver.ko /home/vgsat/gpio_driver_pi/gpio_raw_driver.o /home/vgsat/gpio_driver_pi/gpio_raw_driver.mod.o;  true

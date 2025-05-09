@@ -1,0 +1,17 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "brcm,bcm2835";
+
+    fragment@0 {
+        target = <&gpio>;
+        __overlay__ {
+            mygpio: mygpio@0 {
+                compatible = "my,gpio-raw";
+                reg = <0x3F200000 0x100>;  // base address for GPIO
+                gpio-num = <17>;          // GPIO pin to set HIGH
+            };
+        };
+    };
+};

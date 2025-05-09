@@ -1,0 +1,1 @@
+savedcmd_/home/vgsat/gpio_driver_pi/gpio_raw_driver.mod := printf '%s\n'   gpio_raw_driver.o | awk '!x[$$0]++ { print("/home/vgsat/gpio_driver_pi/"$$0) }' > /home/vgsat/gpio_driver_pi/gpio_raw_driver.mod
